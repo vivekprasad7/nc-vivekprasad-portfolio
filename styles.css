@@ -21,6 +21,14 @@ hr {
     font-size: 0.8rem;
 }
 
+p {
+    margin: 1rem 0.5rem 2rem 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
 /** containers **/
 .container-fluid {
     padding-left: 1rem;
@@ -44,6 +52,7 @@ hr {
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 2rem 1rem 2rem 1rem;
 }
 
 .secondary-link {
@@ -54,6 +63,7 @@ hr {
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 2rem 1rem 2rem 1rem;
 }
 
 /** nav **/
@@ -92,6 +102,12 @@ hr {
     font-weight: bold;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 /** header **/
 
 .hero {
@@ -111,6 +127,7 @@ hr {
 
 .section {
     padding: 2rem 0rem;
+    margin: 3rem;
 }
 
 .section {
@@ -127,6 +144,7 @@ hr {
 
 .unordered {
     list-style: none;
+    padding-left: 0rem;
 }
 
 .list-inline li {
